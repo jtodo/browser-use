@@ -165,7 +165,7 @@ class Browser:
 						viewport=self.config.new_context_config.browser_window_size,
 						user_agent=(
 							'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
-							'(KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'
+							'(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
 						),
 						ignore_default_args=['--enable-automation'],  # Helps with anti-detection
 						headless=self.config.headless,
